@@ -1,0 +1,45 @@
+html,body{
+    margin: 0;
+}
+.contanier{
+    width: 360;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+}
+
+table{
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+
+th{
+    font-size: 18px;
+    color: white;
+    background-color: #1170C8;
+    text-align: center;
+    padding: 18px;
+    border: 1px solid #939393;
+    
+
+    overflow x y //
+}
+
+.esquinaiz{
+     border-radius: 5px 0px 0px 0px;
+}
+
+.esquinade{
+     border-radius: 0px 5px 0px 0px;
+}
+
+td{
+    font-size: 16px;
+    text-align: center;
+    padding: 18px;
+    border: 1px solid #939393; 
+}
