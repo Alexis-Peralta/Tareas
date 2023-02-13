@@ -1,12 +1,30 @@
-const rfc = document.getElementById('rfc')
-const button = document.getElementById('password')
+const ejemplo = document.querySelector('#rfc')
+const button = document.querySelector('#password')
 
-button.addEventListener('click', (e) => {
-    e.preventDefault()
 
-    const data = {
-        rfc: rfc.value
-    }
-console.log(data);
 
-})
+const handlesubmit = () => {
+    console.log("Hola")
+}
+
+function handlesubmit2 (){
+    console.log("Hola2")
+}
+
+
+
+
+
+// button.addEventListener('click', (e) => {
+//     e.preventDefault()
+
+//     const data = {
+//         rfc: ejemplo.value
+//     }
+
+//     console.log(data);
+
+// })
+
+
+

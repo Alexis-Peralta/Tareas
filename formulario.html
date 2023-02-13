@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <style>
+            .main-cointainer{
+                display: flex;
+                flex-direction: column;
+                padding: 15px;
+                width: 500px;
+            }
+            button{
+                padding: 9px;
+            }
+            </style>
+    </head>
+    <body>
+        <form onsubmit="submit()">
+            <input type="text" placeholder="Escribe tú RFC aquí" style="margin-bottom: 10px" required>
+            <input type="submit" value="Enviar">
+            <!-- <button id="password">Recuperar Contraseña</button> -->
+        </form>
 
-    <form action="" method="get">
-
-        <label for="user">RFC</label><br><br>  
-        <input type="text" placeholder="Escribe tú RFC aquí" id="rfc"><br><br> 
-        <button id="password">Recuperar Contraseña</button><br><br>
-    
-
-    </form>
-
-    <script src="validacion.js"></script>
-
-</body>
+            <script>
+                function submit (){
+                    console.log("Hola")
+                }
+            </script>
+            
+    </body>
 </html>

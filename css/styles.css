@@ -2,16 +2,13 @@ html,body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-style: medium;
-    
 }
 
-#table-home{
-    width: 360;
+#table-home{ 
+    width: 800px;    
     margin-left: auto;
-    margin-right: auto; 
-    border: 1px solid red;
+    margin-right: auto;
     border-spacing: 0;
-    border-radius: 6px 6px 0 0;
 }
 
 th{
@@ -19,20 +16,32 @@ th{
     color: white;
     background-color: #1170C8;
     text-align: center;
-    padding: 18px;
+    padding: 15px 25px;
+    border: 1px solid #939393;
+    
 }
 
-.esquinaiz{
-    border-radius: 5px 0px 0px 0px;
-}
-
-.esquinade{
-    border-radius: 0px 5px 0px 0px;
-}
 
 td{
     font-size: 16px;
     text-align: center;
     padding: 18px;
+    border: 1px solid #939393;
 }
+
+tr td, th { 
+    border-top-right-radius: 0;               
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+    border-bottom-right-radius: 0; 
+}
+
+th:first-child { 
+    border-top-left-radius: 5px; 
+}
+
+th:last-child {   
+    border-top-right-radius: 5px; 
+}
+
 
