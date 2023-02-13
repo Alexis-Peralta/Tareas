@@ -4,31 +4,17 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/form.css">
         <title>Formulario</title>
-        <style>
-            .main-cointainer{
-                display: flex;
-                flex-direction: column;
-                padding: 15px;
-                width: 500px;
-            }
-            button{
-                padding: 9px;
-            }
-            </style>
+        
     </head>
     <body>
-        <form onsubmit="submit()">
-            <input type="text" placeholder="Escribe tú RFC aquí" style="margin-bottom: 10px" required>
-            <input type="submit" value="Enviar">
-            <!-- <button id="password">Recuperar Contraseña</button> -->
+        <form class="formulario" onsubmit="submit()">
+            <input type="text" placeholder="Escribe tú RFC aquí" id="rfc">
+            <input type="submit" value="Enviar" id="enviar">
         </form>
 
-            <script>
-                function submit (){
-                    console.log("Hola")
-                }
-            </script>
+        <script src="validacion.js"></script>
             
     </body>
 </html>
